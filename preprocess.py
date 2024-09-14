@@ -5,7 +5,7 @@ from PIL import Image
 import os
 from concurrent.futures import ThreadPoolExecutor
 
-pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
 
 
 def process_single_image(row, folder_path):
