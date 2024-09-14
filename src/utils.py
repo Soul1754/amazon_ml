@@ -1,7 +1,6 @@
 import re
 import src.constants as constants
 import os
-import requests
 import pandas as pd
 import multiprocessing
 import time
